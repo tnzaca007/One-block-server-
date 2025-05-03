@@ -136,3 +136,13 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 [03May2025 06:10:24.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [New Jorney]
 [03May2025 06:16:05.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Step 2]
 [03May2025 06:16:34.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [What a Deal!]
+[03May2025 06:18:51.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Woodlands]
+[03May2025 06:19:01.756] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10337ms or 206 ticks behind
+[03May2025 06:19:36.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Found Land]
+[03May2025 06:20:01.756] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 24737ms or 494 ticks behind
+[03May2025 06:23:14.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Step 3]
+[03May2025 06:23:16.721] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Oneblock Trader'/163, l='ServerLevel[Oneblock Original v2.1.1]', x=0.50, y=-1048.16, z=0.50] died, message: 'Oneblock Trader fell out of the world'
+[03May2025 06:23:16.722] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Oneblock Trader'/163, l='ServerLevel[Oneblock Original v2.1.1]', x=0.50, y=-1048.16, z=0.50] died: Oneblock Trader fell out of the world
+[03May2025 06:25:24.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Cobblemania]
+[03May2025 06:25:24.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Stone Age]
+[03May2025 06:32:44.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Getting an Upgrade]

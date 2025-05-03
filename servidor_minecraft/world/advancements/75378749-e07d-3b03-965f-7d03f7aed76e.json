@@ -2171,6 +2171,12 @@
     },
     "done": true
   },
+  "obs:ob/sapling": {
+    "criteria": {
+      "cobble": "2025-05-03 06:18:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_terracotta": {
     "criteria": {
       "has_the_recipe": "2025-05-03 06:08:32 +0000"
@@ -2270,6 +2276,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_the_recipe": "2025-05-03 06:08:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-05-03 06:25:24 +0000"
     },
     "done": true
   },
@@ -2495,6 +2507,12 @@
     },
     "done": true
   },
+  "obs:ob/cobblemania": {
+    "criteria": {
+      "cobble": "2025-05-03 06:25:24 +0000"
+    },
+    "done": true
+  },
   "obs:ob/dirt_1": {
     "criteria": {
       "phase1": "2025-05-03 06:10:24 +0000"
@@ -2504,6 +2522,12 @@
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_the_recipe": "2025-05-03 06:08:32 +0000"
+    },
+    "done": true
+  },
+  "obs:ob/dirt_2": {
+    "criteria": {
+      "phase1": "2025-05-03 06:19:36 +0000"
     },
     "done": true
   },
@@ -5117,6 +5141,12 @@
     },
     "done": true
   },
+  "obs:phases/phase_2": {
+    "criteria": {
+      "phase1": "2025-05-03 06:16:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_sandstone_wall_from_red_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2025-05-03 06:08:32 +0000"
@@ -5126,6 +5156,12 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_the_recipe": "2025-05-03 06:08:32 +0000"
+    },
+    "done": true
+  },
+  "obs:phases/phase_3": {
+    "criteria": {
+      "phase1": "2025-05-03 06:23:14 +0000"
     },
     "done": true
   },
@@ -5996,6 +6032,12 @@
   "minecraft:recipes/building_blocks/blue_ice": {
     "criteria": {
       "has_the_recipe": "2025-05-03 06:08:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-05-03 06:16:34 +0000"
     },
     "done": true
   },
