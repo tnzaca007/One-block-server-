@@ -733,3 +733,13 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 [03May2025 06:28:56.585] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Oneblock Original v2.1.1
 [03May2025 06:28:56.590] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Oneblock Original v2.1.1
 [03May2025 06:32:44.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Getting an Upgrade]
+[03May2025 06:33:56.586] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Oneblock Original v2.1.1
+[03May2025 06:33:56.591] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Oneblock Original v2.1.1
+[03May2025 06:37:06.571] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Visiting Trader'/251, l='ServerLevel[Oneblock Original v2.1.1]', x=0.50, y=-1048.16, z=0.50] died, message: 'Visiting Trader fell out of the world'
+[03May2025 06:37:06.572] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Visiting Trader'/251, l='ServerLevel[Oneblock Original v2.1.1]', x=0.50, y=-1048.16, z=0.50] died: Visiting Trader fell out of the world
+[03May2025 06:38:56.585] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Oneblock Original v2.1.1
+[03May2025 06:38:56.589] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Oneblock Original v2.1.1
+[03May2025 06:43:03.770] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TNZACA007 lost connection: Disconnected
+[03May2025 06:43:03.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 left the game
+[03May2025 06:43:16.570] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Oneblock Trader'/287, l='ServerLevel[Oneblock Original v2.1.1]', x=0.50, y=-1000.00, z=0.50] died, message: 'Oneblock Trader fell out of the world'
+[03May2025 06:43:16.571] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Oneblock Trader'/287, l='ServerLevel[Oneblock Original v2.1.1]', x=0.50, y=-1000.00, z=0.50] died: Oneblock Trader fell out of the world
