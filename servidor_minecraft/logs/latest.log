@@ -1,125 +1,138 @@
-[03May2025 05:42:45.572] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[03May2025 05:42:45.576] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
-[03May2025 05:42:45.663] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/One-block-server-/servidor_minecraft/config/fml.toml is not correct. Correcting
-[03May2025 05:42:45.664] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[03May2025 05:42:45.665] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[03May2025 05:42:45.665] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[03May2025 05:42:45.666] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[03May2025 05:42:45.680] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[03May2025 05:42:45.741] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/One-block-server-/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[03May2025 05:42:45.929] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[03May2025 05:42:45.931] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[03May2025 05:42:45.932] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[03May2025 05:42:45.933] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[03May2025 05:42:46.013] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[03May2025 05:42:47.407] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[03May2025 05:42:52.698] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[03May2025 05:42:52.701] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[03May2025 05:42:53.189] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[03May2025 05:42:53.695] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[03May2025 05:42:54.184] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03May2025 05:42:54.228] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[03May2025 05:42:54.228] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[03May2025 05:42:55.954] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[03May2025 05:42:56.080] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[03May2025 05:42:56.597] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[03May2025 05:42:56.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[03May2025 05:42:56.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[03May2025 05:42:56.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[03May2025 05:42:56.683] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[03May2025 05:42:56.706] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[03May2025 05:42:56.794] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03May2025 05:42:56.795] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[03May2025 05:42:56.795] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03May2025 05:42:56.795] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[03May2025 05:42:56.821] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[03May2025 05:42:56.823] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03May2025 05:42:56.823] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[03May2025 05:42:56.823] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[03May2025 05:42:56.824] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[03May2025 05:42:56.824] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[03May2025 05:42:56.825] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[03May2025 05:42:56.825] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[03May2025 05:42:56.825] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[03May2025 05:42:56.826] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
-[03May2025 05:42:56.855] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[03May2025 05:43:03.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[03May2025 05:43:03.929] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03May2025 05:43:03.930] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03May2025 05:43:04.182] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03May2025 05:43:04.629] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03May2025 05:43:05.109] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03May2025 05:43:05.608] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[03May2025 05:43:06.107] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[03May2025 05:43:06.623] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[03May2025 05:43:07.106] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[03May2025 05:43:07.603] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[03May2025 05:43:08.102] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[03May2025 05:43:08.606] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[03May2025 05:43:09.113] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[03May2025 05:43:09.602] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[03May2025 05:43:10.105] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[03May2025 05:43:10.626] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[03May2025 05:43:11.107] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[03May2025 05:43:11.602] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[03May2025 05:43:12.107] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[03May2025 05:43:12.632] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[03May2025 05:43:13.102] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[03May2025 05:43:13.604] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[03May2025 05:43:14.110] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
-[03May2025 05:43:14.606] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[03May2025 05:43:15.101] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[03May2025 05:43:15.610] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[03May2025 05:43:16.114] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[03May2025 05:43:16.607] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[03May2025 05:43:17.109] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[03May2025 05:43:17.614] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[03May2025 05:43:18.102] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[03May2025 05:43:18.608] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[03May2025 05:43:19.110] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[03May2025 05:43:19.616] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
-[03May2025 05:43:20.117] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[03May2025 05:43:20.606] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[03May2025 05:43:21.104] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[03May2025 05:43:21.602] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[03May2025 05:43:22.130] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
-[03May2025 05:43:22.603] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[03May2025 05:43:23.109] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[03May2025 05:43:23.627] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[03May2025 05:43:24.102] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[03May2025 05:43:24.631] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[03May2025 05:43:25.108] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[03May2025 05:43:25.605] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[03May2025 05:43:26.106] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[03May2025 05:43:26.603] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[03May2025 05:43:27.128] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[03May2025 05:43:27.602] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[03May2025 05:43:28.105] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[03May2025 05:43:28.530] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 25430 ms
-[03May2025 05:43:28.531] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (31.718s)! For help, type "help"
-[03May2025 05:43:28.550] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[03May2025 05:44:33.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[03May2025 05:44:33.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[03May2025 05:44:33.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[03May2025 05:44:33.577] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2363!/:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2363!/:?]
-	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.20.1-47.4.0-universal.jar%23106!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
-Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	... 4 more
-[03May2025 05:44:34.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03May2025 05:44:36.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03May2025 05:44:36.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03May2025 05:44:36.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03May2025 05:44:36.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03May2025 05:44:36.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03May2025 05:44:36.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03May2025 06:08:03.320] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[03May2025 06:08:03.324] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1026-azure
+[03May2025 06:08:03.431] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[03May2025 06:08:03.490] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/One-block-server-/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[03May2025 06:08:03.705] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[03May2025 06:08:03.707] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[03May2025 06:08:03.708] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[03May2025 06:08:03.709] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[03May2025 06:08:03.787] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[03May2025 06:08:05.217] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[03May2025 06:08:11.113] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[03May2025 06:08:11.126] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[03May2025 06:08:12.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03May2025 06:08:12.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[03May2025 06:08:13.137] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03May2025 06:08:13.267] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
+[03May2025 06:08:13.268] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/One-block-server-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
+[03May2025 06:08:14.659] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:adventure/salvage_sherd from minecraft:advancements/adventure/salvage_sherd.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 10 column 6 path $.criteria.desert_pyramid.trigger
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 10 column 6 path $.criteria.desert_pyramid.trigger
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:500) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	... 13 more
+[03May2025 06:08:15.015] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[03May2025 06:08:15.100] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/brewing/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.100] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:husbandry/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.108] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/transportation/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.113] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:husbandry/make_a_sign_glow: Failed to parse 'location' field
+[03May2025 06:08:15.114] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/transportation/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.121] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/decorations/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.125] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/food/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.133] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/tools/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.135] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:nether/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.142] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/combat/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.144] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.145] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/redstone/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.147] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement obs:ob/wifi: Failed to parse 'location' field
+[03May2025 06:08:15.160] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:nether/charge_respawn_anchor: Failed to parse 'location' field
+[03May2025 06:08:15.162] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:husbandry/wax_off: Failed to parse 'location' field
+[03May2025 06:08:15.162] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/redstone/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.166] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:adventure/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.172] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.178] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:nether/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.184] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/brewing/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.185] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:story/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.190] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:husbandry/plant_seed: Failed to parse 'location' field
+[03May2025 06:08:15.192] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/building_blocks/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.192] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:husbandry/allay_deliver_cake_to_note_block: Failed to parse 'location' field
+[03May2025 06:08:15.194] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement obs:ob/farmer: Failed to parse 'location' field
+[03May2025 06:08:15.195] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:end/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.195] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:husbandry/wax_on: Failed to parse 'location' field
+[03May2025 06:08:15.195] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:adventure/play_jukebox_in_meadows: Failed to parse 'location' field
+[03May2025 06:08:15.209] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/misc/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.215] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:husbandry/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.215] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:end/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.218] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:nether/use_lodestone: Failed to parse 'location' field
+[03May2025 06:08:15.218] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:husbandry/safely_harvest_honey: Failed to parse 'location' field
+[03May2025 06:08:15.219] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/combat/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.220] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/food/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.223] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:story/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.224] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/decorations/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.227] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.227] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:adventure/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.229] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement obs:ob/plant: Failed to parse 'location' field
+[03May2025 06:08:15.233] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/building_blocks/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.233] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/tools/_list: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.234] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:recipes/misc/_all: Missing criteria, expected to find a JsonObject
+[03May2025 06:08:15.267] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:husbandry/allay_deliver_item_to_player: Task Advancement{parentId=minecraft:, display=net.minecraft.advancements.DisplayInfo@16593c1d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={allay_deliver_item_to_player=net.minecraft.advancements.Criterion@7df6fdd3}, requirements=[[allay_deliver_item_to_player]], sends_telemetry_event=false}
+[03May2025 06:08:15.267] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:husbandry/ride_a_boat_with_a_goat: Task Advancement{parentId=minecraft:, display=net.minecraft.advancements.DisplayInfo@698732f1, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={ride_a_boat_with_a_goat=net.minecraft.advancements.Criterion@47593686}, requirements=[[ride_a_boat_with_a_goat]], sends_telemetry_event=false}
+[03May2025 06:08:15.268] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:nether/all_potions: Task Advancement{parentId=minecraft:, display=net.minecraft.advancements.DisplayInfo@3c694116, rewards=AdvancementRewards{experience=100, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={all_effects=net.minecraft.advancements.Criterion@320aad1b}, requirements=[[all_effects]], sends_telemetry_event=false}
+[03May2025 06:08:15.268] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement obs:ob/holy_cow: Task Advancement{parentId=obs:ob/milk, display=net.minecraft.advancements.DisplayInfo@27702b7a, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={cow=net.minecraft.advancements.Criterion@40f538fa}, requirements=[[cow]], sends_telemetry_event=false}
+[03May2025 06:08:15.268] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:end/levitate: Task Advancement{parentId=minecraft:end/find_end_city, display=net.minecraft.advancements.DisplayInfo@243be3df, rewards=AdvancementRewards{experience=50, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={levitated=net.minecraft.advancements.Criterion@4d602d4a}, requirements=[[levitated]], sends_telemetry_event=false}
+[03May2025 06:08:15.269] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:nether/all_effects: Task Advancement{parentId=minecraft:nether/all_potions, display=net.minecraft.advancements.DisplayInfo@6c10c6b1, rewards=AdvancementRewards{experience=1000, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={all_effects=net.minecraft.advancements.Criterion@20d6ac04}, requirements=[[all_effects]], sends_telemetry_event=false}
+[03May2025 06:08:15.269] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:end/find_end_city: Task Advancement{parentId=minecraft:end/enter_end_gateway, display=net.minecraft.advancements.DisplayInfo@1392dc4e, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={in_city=net.minecraft.advancements.Criterion@6b1e4b4}, requirements=[[in_city]], sends_telemetry_event=false}
+[03May2025 06:08:15.269] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:end/enter_end_gateway: Task Advancement{parentId=minecraft:, display=net.minecraft.advancements.DisplayInfo@33934e30, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={entered_end_gateway=net.minecraft.advancements.Criterion@3a0e98b2}, requirements=[[entered_end_gateway]], sends_telemetry_event=false}
+[03May2025 06:08:15.269] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement obs:ob/villager: Task Advancement{parentId=obs:ob/holy_cow, display=net.minecraft.advancements.DisplayInfo@689a8a67, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={villager=net.minecraft.advancements.Criterion@261f44ce}, requirements=[[villager]], sends_telemetry_event=false}
+[03May2025 06:08:15.269] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement obs:ob/button: Task Advancement{parentId=obs:ob/farmer, display=net.minecraft.advancements.DisplayInfo@39dd5c27, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={button=net.minecraft.advancements.Criterion@653856e6}, requirements=[[button]], sends_telemetry_event=false}
+[03May2025 06:08:15.270] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:end/elytra: Task Advancement{parentId=minecraft:end/find_end_city, display=net.minecraft.advancements.DisplayInfo@3e6ec8d6, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={elytra=net.minecraft.advancements.Criterion@19c6269b}, requirements=[[elytra]], sends_telemetry_event=false}
+[03May2025 06:08:15.270] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:husbandry/obtain_netherite_hoe: Task Advancement{parentId=minecraft:husbandry/plant_seed, display=net.minecraft.advancements.DisplayInfo@25c77446, rewards=AdvancementRewards{experience=100, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={netherite_hoe=net.minecraft.advancements.Criterion@d1d7c9b}, requirements=[[netherite_hoe]], sends_telemetry_event=false}
+[03May2025 06:08:15.272] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:husbandry/balanced_diet: Task Advancement{parentId=minecraft:, display=net.minecraft.advancements.DisplayInfo@38244b4c, rewards=AdvancementRewards{experience=100, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={cooked_porkchop=net.minecraft.advancements.Criterion@5e3b0177, chicken=net.minecraft.advancements.Criterion@1e3fead8, honey_bottle=net.minecraft.advancements.Criterion@43c904cc, cooked_mutton=net.minecraft.advancements.Criterion@592d49d2, sweet_berries=net.minecraft.advancements.Criterion@5f9bcb39, chorus_fruit=net.minecraft.advancements.Criterion@3e939338, cooked_beef=net.minecraft.advancements.Criterion@35f70f42, baked_potato=net.minecraft.advancements.Criterion@6a7b3f7, beef=net.minecraft.advancements.Criterion@7647219, porkchop=net.minecraft.advancements.Criterion@254c2b9e, tropical_fish=net.minecraft.advancements.Criterion@284cbd6a, beetroot_soup=net.minecraft.advancements.Criterion@134f9b9f, apple=net.minecraft.advancements.Criterion@379fc755, spider_eye=net.minecraft.advancements.Criterion@73cb1ae3, potato=net.minecraft.advancements.Criterion@3ea14e1d, cooked_cod=net.minecraft.advancements.Criterion@51ddb935, rabbit=net.minecraft.advancements.Criterion@18316934, poisonous_potato=net.minecraft.advancements.Criterion@338664d3, pumpkin_pie=net.minecraft.advancements.Criterion@7631518, mutton=net.minecraft.advancements.Criterion@3b4b10d0, pufferfish=net.minecraft.advancements.Criterion@2820a644, bread=net.minecraft.advancements.Criterion@2880ff6f, golden_apple=net.minecraft.advancements.Criterion@3754e4b2, cookie=net.minecraft.advancements.Criterion@54fabf18, rotten_flesh=net.minecraft.advancements.Criterion@79c52145, suspicious_stew=net.minecraft.advancements.Criterion@5691d295, glow_berries=net.minecraft.advancements.Criterion@4670dd81, dried_kelp=net.minecraft.advancements.Criterion@47f3b828, salmon=net.minecraft.advancements.Criterion@176c769a, melon_slice=net.minecraft.advancements.Criterion@4fb10b98, beetroot=net.minecraft.advancements.Criterion@f6d5b3a, golden_carrot=net.minecraft.advancements.Criterion@55858007, cooked_rabbit=net.minecraft.advancements.Criterion@2129f48b, cooked_chicken=net.minecraft.advancements.Criterion@6683d6fd, enchanted_golden_apple=net.minecraft.advancements.Criterion@3d2e59c, mushroom_stew=net.minecraft.advancements.Criterion@7a2ec859, cod=net.minecraft.advancements.Criterion@14cdf63b, rabbit_stew=net.minecraft.advancements.Criterion@6c81ee61, cooked_salmon=net.minecraft.advancements.Criterion@786b0868, carrot=net.minecraft.advancements.Criterion@748b7b3c}, requirements=[[apple], [mushroom_stew], [bread], [porkchop], [cooked_porkchop], [golden_apple], [enchanted_golden_apple], [cod], [salmon], [tropical_fish], [pufferfish], [cooked_cod], [cooked_salmon], [cookie], [melon_slice], [beef], [cooked_beef], [chicken], [cooked_chicken], [rotten_flesh], [spider_eye], [carrot], [potato], [baked_potato], [poisonous_potato], [golden_carrot], [pumpkin_pie], [rabbit], [cooked_rabbit], [rabbit_stew], [mutton], [cooked_mutton], [chorus_fruit], [beetroot], [beetroot_soup], [dried_kelp], [suspicious_stew], [sweet_berries], [honey_bottle], [glow_berries]], sends_telemetry_event=false}
+[03May2025 06:08:15.272] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement minecraft:nether/fast_travel: Task Advancement{parentId=minecraft:, display=net.minecraft.advancements.DisplayInfo@5d6ece53, rewards=AdvancementRewards{experience=100, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={travelled=net.minecraft.advancements.Criterion@a37a150}, requirements=[[travelled]], sends_telemetry_event=false}
+[03May2025 06:08:15.273] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement obs:ob/ender: Task Advancement{parentId=obs:ob/golem, display=net.minecraft.advancements.DisplayInfo@7152749e, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={overender=net.minecraft.advancements.Criterion@46d866c5, endender=net.minecraft.advancements.Criterion@6ae065fe, netherender=net.minecraft.advancements.Criterion@19583ef8}, requirements=[[overender], [netherender], [endender]], sends_telemetry_event=false}
+[03May2025 06:08:15.273] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement obs:ob/golem: Task Advancement{parentId=obs:ob/villager, display=net.minecraft.advancements.DisplayInfo@56dd5a52, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={villager=net.minecraft.advancements.Criterion@17bace0a}, requirements=[[villager]], sends_telemetry_event=false}
+[03May2025 06:08:15.273] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement obs:ob/milk: Task Advancement{parentId=obs:ob/farmer, display=net.minecraft.advancements.DisplayInfo@49830d67, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@47f3415d}, criteria={milky=net.minecraft.advancements.Criterion@80850c3}, requirements=[[milky]], sends_telemetry_event=false}
+[03May2025 06:08:15.273] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1366 advancements
+[03May2025 06:08:15.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[03May2025 06:08:15.745] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03May2025 06:08:15.745] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03May2025 06:08:15.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03May2025 06:08:15.878] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03May2025 06:08:15.897] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[03May2025 06:08:15.962] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03May2025 06:08:15.962] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[03May2025 06:08:15.962] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03May2025 06:08:15.963] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[03May2025 06:08:16.007] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03May2025 06:08:16.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03May2025 06:08:20.345] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:20.355] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:20.360] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:20.368] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:20.372] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:20.378] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:20.384] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:20.389] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:20.391] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:20.670] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03May2025 06:08:21.167] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[03May2025 06:08:21.603] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5437 ms
+[03May2025 06:08:21.604] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.629s)! For help, type "help"
+[03May2025 06:08:21.619] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03May2025 06:08:32.574] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TNZACA007[/127.162.24.120:42445] logged in with entity id 5 at (0.5, 61.0, 0.5)
+[03May2025 06:08:32.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 joined the game
+[03May2025 06:08:32.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has completed the challenge [Welcome to OneBlock]
+[03May2025 06:08:44.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has completed the challenge [Progress]
+[03May2025 06:10:13.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Step 1]
+[03May2025 06:10:24.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [New Jorney]
+[03May2025 06:16:05.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [Step 2]
+[03May2025 06:16:34.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TNZACA007 has made the advancement [What a Deal!]
